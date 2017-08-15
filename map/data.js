@@ -39,7 +39,7 @@ var dataRegular = {
 var dataTest = {
 	"type": "FeatureCollection",
 	"features": [
-			{
+		{
 			"type": "Feature",
 			"properties": {
 				"name": "Trial Birmingham",
@@ -54,7 +54,8 @@ var dataTest = {
 				"type": "Point",
 				"coordinates": [-1.795126, 52.519995]
 			}
-			{
+		},
+		{
 			"type": "Feature",
 			"properties": {
 				"name": "Trial Bristol",
@@ -69,7 +70,8 @@ var dataTest = {
 				"type": "Point",
 				"coordinates": [-2.628612, 51.439694]
 			}
-			{
+		},
+		{
 			"type": "Feature",
 			"properties": {
 				"name": "Trial Brighton",
@@ -84,7 +86,8 @@ var dataTest = {
 				"type": "Point",
 				"coordinates": [-0.150272, 50.821612]
 			}
-			{
+		},
+		{
 			"type": "Feature",
 			"properties": {
 				"name": "Trial Cambridge",
@@ -99,7 +102,8 @@ var dataTest = {
 				"type": "Point",
 				"coordinates": [0.177966, 52.157573]
 			}
-			{
+		},
+		{
 			"type": "Feature",
 			"properties": {
 				"name": "Trial Cambridge",
@@ -114,7 +118,8 @@ var dataTest = {
 				"type": "Point",
 				"coordinates": [0.127271, 52.19806]
 			}
-			{
+		},
+		{
 			"type": "Feature",
 			"properties": {
 				"name": "Trial Glasgow",
@@ -129,7 +134,8 @@ var dataTest = {
 				"type": "Point",
 				"coordinates": [-4.182513, 55.807868]
 			}
-			{
+		},
+		{
 			"type": "Feature",
 			"properties": {
 				"name": "Trial Glasgow",
@@ -144,7 +150,8 @@ var dataTest = {
 				"type": "Point",
 				"coordinates": [-4.388742, 55.892105]
 			}
-			{
+		},
+		{
 			"type": "Feature",
 			"properties": {
 				"name": "Trial London",
@@ -159,7 +166,8 @@ var dataTest = {
 				"type": "Point",
 				"coordinates": [-0.14874, 51.574230]
 			}
-			{
+		},
+		{
 			"type": "Feature",
 			"properties": {
 				"name": "Trial London",
@@ -174,7 +182,8 @@ var dataTest = {
 				"type": "Point",
 				"coordinates": [-0.056047, 51.446845]
 			}
-			{
+		},
+		{
 			"type": "Feature",
 			"properties": {
 				"name": "Trial Manchester",
@@ -189,7 +198,8 @@ var dataTest = {
 				"type": "Point",
 				"coordinates": [-2.239504, 53.477193]
 			}
-			{
+		},
+		{
 			"type": "Feature",
 			"properties": {
 				"name": "Trial Norwich",
@@ -204,7 +214,8 @@ var dataTest = {
 				"type": "Point",
 				"coordinates": [1.269804, 52.65034]
 			}
-			{
+		},
+		{
 			"type": "Feature",
 			"properties": {
 				"name": "Trial Portsmouth",
@@ -219,7 +230,8 @@ var dataTest = {
 				"type": "Point",
 				"coordinates": [-1.068117, 50.853233]
 			}
-			{
+		},
+		{
 			"type": "Feature",
 			"properties": {
 				"name": "Trial Aldershot",
@@ -234,7 +246,8 @@ var dataTest = {
 				"type": "Point",
 				"coordinates": [-0.602621, 51.312569]
 			}
-			{
+		},
+		{
 			"type": "Feature",
 			"properties": {
 				"name": "Trial Aldershot",
@@ -249,6 +262,7 @@ var dataTest = {
 				"type": "Point",
 				"coordinates": [-0.766306, 51.254165]
 			}
+		},
 		{
 			"type": "Feature",
 			"properties": {
