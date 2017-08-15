@@ -39,6 +39,216 @@ var dataRegular = {
 var dataTest = {
 	"type": "FeatureCollection",
 	"features": [
+			{
+			"type": "Feature",
+			"properties": {
+				"name": "Trial Birmingham",
+				"channel": "9A",
+				"location": "Castle Vale, Birmingham, England",
+				"start": "20.08.2015",
+				"operator": "Switch Radio",
+				"operatorUrl": "http://www.switchradio.co.uk/",
+				"moreInfoUrl": "https://www.ofcom.org.uk/manage-your-licence/radio-broadcast-licensing/look-up-radio-station-details/small-scale-dab-trial-coverage-maps"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.795126, 52.519995]
+			}
+			{
+			"type": "Feature",
+			"properties": {
+				"name": "Trial Bristol",
+				"channel": "9A",
+				"location": "County Gates, Bristol, England",
+				"start": "26.08.2015",
+				"operator": "Celador",
+				"operatorUrl": "http://www.celador.co.uk/",
+				"moreInfoUrl": "https://www.ofcom.org.uk/manage-your-licence/radio-broadcast-licensing/look-up-radio-station-details/small-scale-dab-trial-coverage-maps"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-2.628612, 51.439694]
+			}
+			{
+			"type": "Feature",
+			"properties": {
+				"name": "Trial Brighton",
+				"channel": "9A",
+				"location": "Sussex Heights, Brighton, PRBH",
+				"start": "23.07.2015",
+				"operator": "Brighton & Hove Radio Ltd.",
+				"operatorUrl": "http://juicebrighton.com/",
+				"moreInfoUrl": "https://www.ofcom.org.uk/manage-your-licence/radio-broadcast-licensing/look-up-radio-station-details/small-scale-dab-trial-coverage-maps"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.150272, 50.821612]
+			}
+			{
+			"type": "Feature",
+			"properties": {
+				"name": "Trial Cambridge",
+				"channel": "7D",
+				"location": "Gog Magog, Camb, England",
+				"start": "03.09.2015",
+				"operator": "Star Radio",
+				"operatorUrl": "http://starradioonline.com/",
+				"moreInfoUrl": "https://www.ofcom.org.uk/manage-your-licence/radio-broadcast-licensing/look-up-radio-station-details/small-scale-dab-trial-coverage-maps"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.177966, 52.157573]
+			}
+			{
+			"type": "Feature",
+			"properties": {
+				"name": "Trial Cambridge",
+				"channel": "7D (Repeater, SFN)",
+				"location": "Church, Cambridge, England",
+				"start": "03.09.2015",
+				"operator": "Star Radio",
+				"operatorUrl": "http://starradioonline.com/",
+				"moreInfoUrl": "https://www.ofcom.org.uk/manage-your-licence/radio-broadcast-licensing/look-up-radio-station-details/small-scale-dab-trial-coverage-maps"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [0.127271, 52.19806]
+			}
+			{
+			"type": "Feature",
+			"properties": {
+				"name": "Trial Glasgow",
+				"channel": "10B (SFN)",
+				"location": "Cathkin Braes, Glasgow, Scotland",
+				"start": "26.11.2015",
+				"operator": "Brave Broadcasting Ltd.",
+				"operatorUrl": "http://www.glasgowdab.uk/",
+				"moreInfoUrl": "https://www.ofcom.org.uk/manage-your-licence/radio-broadcast-licensing/look-up-radio-station-details/small-scale-dab-trial-coverage-maps"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-4.182513, 55.807868]
+			}
+			{
+			"type": "Feature",
+			"properties": {
+				"name": "Trial Glasgow",
+				"channel": "10B (SFN)*INACTIVE",
+				"location": "Edmonstone Court, Glasgow, Scotland",
+				"start": "10.05.2016",
+				"operator": "Brave Broadcasting Ltd.",
+				"operatorUrl": "http://www.glasgowdab.uk/",
+				"moreInfoUrl": "https://www.ofcom.org.uk/manage-your-licence/radio-broadcast-licensing/look-up-radio-station-details/small-scale-dab-trial-coverage-maps"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-4.388742, 55.892105]
+			}
+			{
+			"type": "Feature",
+			"properties": {
+				"name": "Trial London",
+				"channel": "9A (SFN)",
+				"location": "Southwood Park, London, England",
+				"start": "09.09.2015",
+				"operator": "U.DAB",
+				"operatorUrl": "http://www.udab.co.uk/",
+				"moreInfoUrl": "https://www.ofcom.org.uk/manage-your-licence/radio-broadcast-licensing/look-up-radio-station-details/small-scale-dab-trial-coverage-maps"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.14874, 51.574230]
+			}
+			{
+			"type": "Feature",
+			"properties": {
+				"name": "Trial London",
+				"channel": "9A (SFN)",
+				"location": "Honor Oak Park, London, England",
+				"start": "07.10.2015",
+				"operator": "U.DAB",
+				"operatorUrl": "http://www.udab.co.uk/",
+				"moreInfoUrl": "https://www.ofcom.org.uk/manage-your-licence/radio-broadcast-licensing/look-up-radio-station-details/small-scale-dab-trial-coverage-maps"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.056047, 51.446845]
+			}
+			{
+			"type": "Feature",
+			"properties": {
+				"name": "Trial Manchester",
+				"channel": "10B",
+				"location": "Manchester One, Manchester, England",
+				"start": "19.08.2015",
+				"operator": "Niocast",
+				"operatorUrl": "http://niocast.com/",
+				"moreInfoUrl": "https://www.ofcom.org.uk/manage-your-licence/radio-broadcast-licensing/look-up-radio-station-details/small-scale-dab-trial-coverage-maps"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-2.239504, 53.477193]
+			}
+			{
+			"type": "Feature",
+			"properties": {
+				"name": "Trial Norwich",
+				"channel": "9A",
+				"location": "Markham Tower, Norwich, England",
+				"start": "04.07.2015",
+				"operator": "FDN",
+				"operatorUrl": "http://www.futuredigital.info/",
+				"moreInfoUrl": "https://www.ofcom.org.uk/manage-your-licence/radio-broadcast-licensing/look-up-radio-station-details/small-scale-dab-trial-coverage-maps"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [1.269804, 52.65034]
+			}
+			{
+			"type": "Feature",
+			"properties": {
+				"name": "Trial Portsmouth",
+				"channel": "7D",
+				"location": "Fort Widley, Portsmouth, England",
+				"start": "06.08.2015",
+				"operator": "Solent Wireless",
+				"operatorUrl": "http://www.solentwireless.com/",
+				"moreInfoUrl": "https://www.ofcom.org.uk/manage-your-licence/radio-broadcast-licensing/look-up-radio-station-details/small-scale-dab-trial-coverage-maps"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.068117, 50.853233]
+			}
+			{
+			"type": "Feature",
+			"properties": {
+				"name": "Trial Aldershot",
+				"channel": "8A (SFN)",
+				"location": "Winston Churchill School, Woking, England",
+				"start": "26.09.2015",
+				"operator": "BFBS",
+				"operatorUrl": "http://bfbs.com/",
+				"moreInfoUrl": "https://www.ofcom.org.uk/manage-your-licence/radio-broadcast-licensing/look-up-radio-station-details/small-scale-dab-trial-coverage-maps"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.602621, 51.312569]
+			}
+			{
+			"type": "Feature",
+			"properties": {
+				"name": "Trial Aldershot",
+				"channel": "8A (SFN)",
+				"location": "Health Centre, Aldershot, England",
+				"start": "26.08.2016",
+				"operator": "BFBS",
+				"operatorUrl": "http://bfbs.com/",
+				"moreInfoUrl": "https://www.ofcom.org.uk/manage-your-licence/radio-broadcast-licensing/look-up-radio-station-details/small-scale-dab-trial-coverage-maps"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-0.766306, 51.254165]
+			}
 		{
 			"type": "Feature",
 			"properties": {
