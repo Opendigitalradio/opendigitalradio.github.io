@@ -16,6 +16,22 @@ var dataRegular = {
 				"type": "Point",
 				"coordinates": [7.89941, 49.87998]
 			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "RNT Associative",
+				"channel": "9A",
+				"location": "Montmartre, Paris, France",
+				"start": "04.07.2015",
+				"operator": "La Coop Radio",
+				"operatorUrl": "http://lacoopradio.fr/",
+				"moreInfoUrl": "https://www.facebook.com/RNTasso/"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2.341789, 48.887569]
+			}
 		}
 	]
 };
