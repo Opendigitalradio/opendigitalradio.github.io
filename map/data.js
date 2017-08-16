@@ -32,6 +32,22 @@ var dataRegular = {
 				"type": "Point",
 				"coordinates": [2.341789, 48.887569]
 			}
+		},		
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "DIG3GE (1st pilot site with opendigitalradio)",
+				"channel": "10D",
+				"location": "Le Fierney (F), Geneva, Switzerland",
+				"start": "01.05.2014",
+				"operator": "Digris",
+				"operatorUrl": "http://www.digris.ch/",
+				"moreInfoUrl": "http://wiki.opendigitalradio.org/Start_of_transmission_of_new_DAB%2B_stations_on_Geneva"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [5.985, 46.290278]
+			}
 		}
 	]
 };
