@@ -76,11 +76,11 @@ var dataTest = {
 			"properties": {
 				"name": "Trial Bristol",
 				"channel": "9A",
-				"location": "County Gates, Bristol, England",
+				"location": "Ashton, Bristol, England",
 				"start": "26.08.2015",
 				"operator": "Celador",
-				"operatorUrl": "http://www.celador.co.uk/",
-				"moreInfoUrl": "https://www.ofcom.org.uk/manage-your-licence/radio-broadcast-licensing/look-up-radio-station-details/small-scale-dab-trial-coverage-maps"
+				"operatorUrl": "http://bristoldigitalradio.org/",
+				"moreInfoUrl": "http://www.bristoldigitalradio.org/about-us/"
 			},
 			"geometry": {
 				"type": "Point",
