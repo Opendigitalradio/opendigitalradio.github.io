@@ -64,7 +64,127 @@ var dataRegular = {
 				"type": "Point",
 				"coordinates": [5.985, 46.290278]
 			}
-		}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "DIG Aarau",
+				"channel": "5D",
+				"location": "Aarau, Aargau, Switzerland",
+				"start": "05.2016",
+				"operator": "Digris",
+				"operatorUrl": "http://www.digris.ch/"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [8.06644, 47.39237]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "DIG Basel",
+				"channel": "10A",
+				"location": "Basel, Switzerland",
+				"start": "07.2016",
+				"operator": "Digris",
+				"operatorUrl": "http://www.digris.ch/"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [7.59178, 47.55881]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "DIG D04 ZS, Luzern - Zug - Nidwalden",
+				"channel": "5D",
+				"location": "Gigeliwald & Stanserhorn, Switzerland",
+				"start": "07.2016",
+				"operator": "Digris",
+				"operatorUrl": "http://www.digris.ch/"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [8.42646, 47.10162]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "DIG D04 - WTHUR, Winterthur",
+				"channel": "5D",
+				"location": "Brüelberg, Switzerland",
+				"start": "06.2016",
+				"operator": "Digris",
+				"operatorUrl": "http://www.digris.ch/"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [8.70743, 47.50184]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "DIG D04 - ZH, Zürich",
+				"channel": "9D",
+				"location": "Felsenegg, Switzerland",
+				"start": "08.2014",
+				"operator": "Digris",
+				"operatorUrl": "http://www.digris.ch/"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [8.50941, 47.30859]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "DIG D04 - LS, Lausanne",
+				"channel": "8C",
+				"location": "Reyvroz (F)",
+				"start": "09.2015",
+				"operator": "Digris",
+				"operatorUrl": "http://www.digris.ch/"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [6.61910, 46.49434]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "DIG D04 - VS, Valais",
+				"channel": "10D",
+				"location": "Martigny Chemin Dessous, Montana Grand Signal",
+				"start": "11.2016",
+				"operator": "Digris",
+				"operatorUrl": "http://www.digris.ch/"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [7.07231, 46.11368]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "DIG D04 - TI, Sopraceneri, Sottoceneri",
+				"channel": "10D",
+				"location": "San Bartolomeo, Monte Marzio",
+				"start": "06.2017",
+				"operator": "Digris",
+				"operatorUrl": "http://www.digris.ch/"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [8.93818, 46.08903]
+			}
+		},
 	]
 };
 		
