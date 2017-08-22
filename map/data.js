@@ -185,6 +185,36 @@ var dataRegular = {
 				"coordinates": [8.93818, 46.08903]
 			}
 		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "DIG D04 - BI, Bienne - Solorthurm",
+				"channel": "10A",
+				"location": "Jaeissberg - Solorthurm",
+				"start": "08.2017",
+				"operator": "Digris",
+				"operatorUrl": "http://www.digris.ch/"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [47.10823, 7.27892]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "DIG D04 - BERN, Bern",
+				"channel": "10A",
+				"location": "Forsthaus",
+				"start": "08.2017",
+				"operator": "Digris",
+				"operatorUrl": "http://www.digris.ch/"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [46.958619, 7.421595]
+			}
+		},
 	]
 };
 		
@@ -460,6 +490,21 @@ var dataPlanned = {
 				"type": "Point",
 				"coordinates": [13.3332, 50.9174]
 			}
-		}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "DIG F03 - NE",
+				"channel": "10D",
+				"location": "Yverdon - Vallamand",
+				"start": "12.2017",
+				"operator": "Digris",
+				"operatorUrl": "http://www.digris.ch/"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [46.913538, 6.864711]
+			}
+		},
 	]
 };
