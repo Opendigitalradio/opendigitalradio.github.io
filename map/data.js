@@ -32,7 +32,23 @@ var dataRegular = {
 				"type": "Point",
 				"coordinates": [2.341789, 48.887569]
 			}
-		},		
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "SDN Marseille",
+				"channel": "8C",
+				"location": "Marseille, Aix-en-Provence, France",
+				"start": "20.06.2014",
+				"operator": "SDN",
+				"operatorUrl": "http://adn13.fr",
+				"moreInfoUrl": "http://diffusionnumerique.org"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [5.4125000, 43.389166]
+			}
+		},
 		{
 			"type": "Feature",
 			"properties": {
