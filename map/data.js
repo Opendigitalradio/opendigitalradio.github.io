@@ -203,6 +203,21 @@ var dataRegular = {
 		{
 			"type": "Feature",
 			"properties": {
+				"name": "DIG D04 - BO, Bern Oberland",
+				"channel": "8A",
+				"location": "Interlaken - Brienz - Thun",
+				"start": "08.2017",
+				"operator": "Digris",
+				"operatorUrl": "http://www.digris.ch/"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [7.859558, 46.667943]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
 				"name": "DIG D04 - BERN, Bern",
 				"channel": "10A",
 				"location": "Forsthaus",
