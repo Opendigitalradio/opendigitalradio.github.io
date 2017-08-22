@@ -197,7 +197,7 @@ var dataRegular = {
 			},
 			"geometry": {
 				"type": "Point",
-				"coordinates": [47.10823, 7.27892]
+				"coordinates": [7.27892, 47.10823]
 			}
 		},
 		{
@@ -212,7 +212,7 @@ var dataRegular = {
 			},
 			"geometry": {
 				"type": "Point",
-				"coordinates": [46.958619, 7.421595]
+				"coordinates": [7.421595, 46.958619]
 			}
 		},
 	]
@@ -503,7 +503,7 @@ var dataPlanned = {
 			},
 			"geometry": {
 				"type": "Point",
-				"coordinates": [46.913538, 6.864711]
+				"coordinates": [6.864711, 46.913538]
 			}
 		},
 	]
