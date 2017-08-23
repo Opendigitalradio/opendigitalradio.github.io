@@ -238,7 +238,7 @@ var dataRegular = {
 				"location": "Eastern Jutland",
 				"start": "12.2016",
 				"operator": "nc",
-				"operatorUrl": "http://www.digris.ch/"
+				"operatorUrl": "nc"
 			},
 			"geometry": {
 				"type": "Point",
