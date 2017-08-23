@@ -230,6 +230,21 @@ var dataRegular = {
 				"coordinates": [7.421595, 46.958619]
 			}
 		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Oestjyll",
+				"channel": "8A",
+				"location": "Eastern Jutland",
+				"start": "08.2017",
+				"operator": "Digris",
+				"operatorUrl": "http://www.digris.ch/"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [10.123608, 56.182384]
+			}
+		},
 	]
 };
 		
