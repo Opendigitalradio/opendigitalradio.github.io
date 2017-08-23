@@ -41,8 +41,8 @@ var dataRegular = {
 				"location": "Marseille, Aix-en-Provence, France",
 				"start": "20.06.2014",
 				"operator": "SDN",
-				"operatorUrl": "http://adn13.fr",
-				"moreInfoUrl": "http://diffusionnumerique.org"
+				"operatorUrl": "http://diffusionnumerique.org",
+				"moreInfoUrl": "http://adn13.fr"
 			},
 			"geometry": {
 				"type": "Point",
