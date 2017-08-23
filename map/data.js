@@ -236,8 +236,8 @@ var dataRegular = {
 				"name": "Oestjyll",
 				"channel": "8A",
 				"location": "Eastern Jutland",
-				"start": "08.2017",
-				"operator": "Digris",
+				"start": "12.2016",
+				"operator": "nc",
 				"operatorUrl": "http://www.digris.ch/"
 			},
 			"geometry": {
