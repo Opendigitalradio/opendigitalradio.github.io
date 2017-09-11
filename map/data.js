@@ -245,6 +245,21 @@ var dataRegular = {
 				"coordinates": [10.123608, 56.182384]
 			}
 		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "De Nieuwe Hanze",
+				"channel": "7B",
+				"location": "Kampen, Overijssel, Netherlands",
+				"start": "09.2017",
+				"operator": "Airplay Media - Hans van Eijsden",
+				"operatorUrl": "https://www.airplayradio.nl/"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [5.911225, 52.550791]
+			}
+		},
 	]
 };
 		
