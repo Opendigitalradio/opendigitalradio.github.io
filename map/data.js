@@ -557,7 +557,7 @@ var dataPlanned = {
 				"name": "DIG D04 - CS",
 				"channel": "10D",
 				"location": "Chur - Sarganserland",
-				"start": "16.8.2017",
+				"start": "16.08.2017",
 				"operator": "Digris",
 				"operatorUrl": "http://www.digris.ch/"
 			},
