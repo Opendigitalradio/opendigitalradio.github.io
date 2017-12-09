@@ -551,5 +551,20 @@ var dataPlanned = {
 				"coordinates": [6.864711, 46.913538]
 			}
 		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "DIG D04 - CS",
+				"channel": "10D",
+				"location": "Chur - Sarganserland",
+				"start": "8.2017",
+				"operator": "Digris",
+				"operatorUrl": "http://www.digris.ch/"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [9.426478, 47.015824]
+			}
+		},
 	]
 };
