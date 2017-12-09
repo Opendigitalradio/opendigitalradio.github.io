@@ -260,6 +260,21 @@ var dataRegular = {
 				"coordinates": [5.911225, 52.550791]
 			}
 		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "DIG D04 - CS",
+				"channel": "10D",
+				"location": "Chur - Sarganserland",
+				"start": "16.08.2017",
+				"operator": "Digris",
+				"operatorUrl": "http://www.digris.ch/"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [9.426478, 47.015824]
+			}
+		},
 	]
 };
 		
@@ -549,21 +564,6 @@ var dataPlanned = {
 			"geometry": {
 				"type": "Point",
 				"coordinates": [6.864711, 46.913538]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "DIG D04 - CS",
-				"channel": "10D",
-				"location": "Chur - Sarganserland",
-				"start": "16.08.2017",
-				"operator": "Digris",
-				"operatorUrl": "http://www.digris.ch/"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [9.426478, 47.015824]
 			}
 		},
 	]
