@@ -530,25 +530,31 @@ var dataPlanned = {
 		{
 			"type": "Feature",
 			"properties": {
-				"location": "Leipzig, TBD",
-				"start": "2017/18 (planned)",
-				"moreInfoUrl": "https://www.slm-online.de/2017_pressemitteilungen-a-2996.html"
+				"channel": "6C",
+				"location": "Leipzig, Messegrund",
+				"start": "31.01.2018 (planned)",
+				"operator": " DIVICON MEDIA HOLDING GmbH",
+				"operatorUrl": "http://www.divicon-media.com/",
+				"moreInfoUrl": "https://www.slm-online.de/2018_pressemitteilungen-a-3525.html"
 			},
 			"geometry": {
 				"type": "Point",
-				"coordinates": [12.3806, 51.3398]
+				"coordinates": [12.393261, 51.313512]
 			}
 		},
 		{
 			"type": "Feature",
 			"properties": {
-				"location": "Freiberg, TBD",
-				"start": "2017/18 (planned)",
-				"moreInfoUrl": "https://www.slm-online.de/2017_pressemitteilungen-a-2996.html"
+				"channel": "10D",
+				"location": "Freiberg, Wasserberg",
+				"start": "31.01.2018 (planned)",
+				"operator": " DIVICON MEDIA HOLDING GmbH",
+				"operatorUrl": "http://www.divicon-media.com/",
+				"moreInfoUrl": "https://www.slm-online.de/2018_pressemitteilungen-a-3525.html"
 			},
 			"geometry": {
 				"type": "Point",
-				"coordinates": [13.3332, 50.9174]
+				"coordinates": [13.317117, 50.903778]
 			}
 		},
 		{
