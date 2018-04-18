@@ -14,7 +14,7 @@ var dataRegular = {
 			},
 			"geometry": {
 				"type": "Point",
-				"coordinates": [7.89941, 49.87998]
+				"coordinates": [7.8661894, 49.8137324]
 			}
 		},
 		{
