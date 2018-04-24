@@ -71,10 +71,10 @@ function createMap(mapID, imageUrlPrefix) {
     // add transmitter layers
     var geoRegular = createGeo(map, imageUrlPrefix, controlLayers, dataRegular, "regular", "regular");
     var geoTest = createGeo(map, imageUrlPrefix, controlLayers, dataTest, "test", "test");
-    var geoPlanned = createGeo(map, imageUrlPrefix, controlLayers, dataPlanned, "planned", "planned");
+    var geoInactive = createGeo(map, imageUrlPrefix, controlLayers, dataInactive, "inactive", "inactive");
 
     // fit all transmitters into view
-    var bounds = geoRegular.getBounds().extend(geoTest.getBounds()).extend(geoPlanned.getBounds());
+    var bounds = geoRegular.getBounds().extend(geoTest.getBounds()).extend(geoInactive.getBounds());
     map.fitBounds(bounds, {
         padding: [50, 50]
     });

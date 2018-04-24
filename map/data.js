@@ -556,7 +556,7 @@ var dataTest = {
 	]
 };
 
-var dataPlanned = {
+var dataInactive = {
 	"type": "FeatureCollection",
 	"features": [
 		{
