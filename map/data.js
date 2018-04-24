@@ -4,6 +4,22 @@ var dataRegular = {
 		{
 			"type": "Feature",
 			"properties": {
+				"name": "DAB+ Bretzenheim",
+				"channel": "12A",
+				"location": "Bretzenheim, Kirchturm Maria Geburt",
+				"start": "05.08.2017",
+				"operator": "domradio Studio Nahe",
+				"operatorUrl": "http://www.studio-nahe.de/",
+				"moreInfoUrl": "https://www.facebook.com/digitalradiobretzenheim/"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [7.8661894, 49.8137324]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
 				"name": "RNT Associative",
 				"channel": "9A",
 				"location": "Montmartre, Paris, France",
@@ -527,22 +543,6 @@ var dataTest = {
 var dataInactive = {
 	"type": "FeatureCollection",
 	"features": [
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "DAB+ Bretzenheim",
-				"channel": "12A",
-				"location": "Bretzenheim, Kirchturm Maria Geburt",
-				"start": "05.08.2017",
-				"operator": "domradio Studio Nahe",
-				"operatorUrl": "http://www.studio-nahe.de/",
-				"moreInfoUrl": "https://www.facebook.com/digitalradiobretzenheim/"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [7.8661894, 49.8137324]
-			}
-		},
 		{
 			"type": "Feature",
 			"properties": {
