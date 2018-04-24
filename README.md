@@ -8,7 +8,7 @@ appear on the map, please open an issue or a pull request.
 
 The following information is needed:
 
- * type of transmission: test/regular/planned
+ * type of transmission: test/regular/inactive
  * name of the multiplex
  * DAB channel of the multiplex
  * name of the area covered
