@@ -537,6 +537,21 @@ var dataTest = {
 				"coordinates": [-0.766306, 51.254165]
 			}
 		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Wrocław Minimux",
+				"channel": "11A",
+				"location": "Wrocław University of Science and Technology",
+				"start": "12.2017",
+				"operator": "Radio Wrocław SA; Politechnika Wrocławska; Instytut Łączności – PIB",
+				"operatorUrl": "",
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [17.061985, 51.107522]
+			}	
+		},	
 	]
 };
 
