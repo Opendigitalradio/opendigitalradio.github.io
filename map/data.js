@@ -552,17 +552,11 @@ var dataTest = {
 				"coordinates": [17.061985, 51.107522]
 			}	
 		},	
-	]
-};
-
-var dataInactive = {
-	"type": "FeatureCollection",
-	"features": [
 		{
 			"type": "Feature",
 			"properties": {
 				"name": "IRT-Radio-Test",
-				"channel": "8A",
+				"channel": "7B",
 				"location": "Munich, BR-Funkhaus",
 				"start": "16.02.2017",
 				"operator": "Institut für Rundfunktechnik GmbH",
@@ -574,6 +568,12 @@ var dataInactive = {
 				"coordinates": [11.55368, 48.14297]
 			}
 		},
+	]
+};
+
+var dataInactive = {
+	"type": "FeatureCollection",
+	"features": [
 		{
 			"type": "Feature",
 			"properties": {
