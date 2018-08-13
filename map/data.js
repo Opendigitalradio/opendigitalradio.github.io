@@ -552,6 +552,22 @@ var dataTest = {
 				"coordinates": [11.55368, 48.14297]
 			}
 		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Bangkok",
+				"channel": "6B",
+				"location": "Bangkok",
+				"start": "02.10.2015",
+				"operator": "IFZ Technologies",
+				"operatorUrl": "https://www.ifz.co.th",
+				"moreInfoUrl": "https://www.youtube.com/watch?v=WWjk94Zpktg"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [100.504, 13.733]
+			}
+		},
 	]
 };
 
