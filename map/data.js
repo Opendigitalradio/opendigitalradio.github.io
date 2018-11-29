@@ -4,6 +4,22 @@ var dataRegular = {
 		{
 			"type": "Feature",
 			"properties": {
+				"name": "RNT Lyon 6",
+				"channel": "11B",
+				"location": "Rieux, Lyon, France",
+				"start": "04.07.2015",
+				"operator": "Lyon Local 1",
+				"operatorUrl": "http://lyonlocal1.fr/",
+				"moreInfoUrl": "https://lyonlocal1.fr"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [45.818194, 4.906378]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
 				"name": "RNT Associative",
 				"channel": "9A",
 				"location": "Montmartre, Paris, France",
