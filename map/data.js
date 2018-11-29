@@ -13,7 +13,21 @@ var dataRegular = {
 			},
 			"geometry": {
 				"type": "Point",
-				"coordinates": [45.818194, 4.906378]
+				"coordinates": [4.906378, 45.818194]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "RNT Nice 6",
+				"channel": "8D",
+				"location": "Mt Leuze, Nice, France",
+				"start": "05.11.2018",
+				"operator": "Rmux"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [7.302090, 43.725747]
 			}
 		},
 		{
