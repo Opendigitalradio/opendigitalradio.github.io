@@ -9,8 +9,7 @@ var dataRegular = {
 				"location": "Rieux, Lyon, France",
 				"start": "04.07.2015",
 				"operator": "Lyon Local 1",
-				"operatorUrl": "http://lyonlocal1.fr/",
-				"moreInfoUrl": "https://lyonlocal1.fr"
+				"operatorUrl": "http://lyonlocal1.fr/"
 			},
 			"geometry": {
 				"type": "Point",
@@ -198,6 +197,21 @@ var dataRegular = {
 			"geometry": {
 				"type": "Point",
 				"coordinates": [7.27892, 47.10823]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "DIG F03 - NE",
+				"channel": "10D",
+				"location": "Yverdon - Vallamand",
+				"start": "12.2017",
+				"operator": "Digris",
+				"operatorUrl": "http://www.digris.ch/"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [6.864711, 46.913538]
 			}
 		},
 		{
@@ -604,21 +618,6 @@ var dataInactive = {
 			"geometry": {
 				"type": "Point",
 				"coordinates": [7.8661894, 49.8137324]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "DIG F03 - NE",
-				"channel": "10D",
-				"location": "Yverdon - Vallamand",
-				"start": "12.2017",
-				"operator": "Digris",
-				"operatorUrl": "http://www.digris.ch/"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [6.864711, 46.913538]
 			}
 		},
 	]
