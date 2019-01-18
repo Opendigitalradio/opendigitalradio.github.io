@@ -65,6 +65,21 @@ var dataRegular = {
 		{
 			"type": "Feature",
 			"properties": {
+				"name": "RNT Mulhouse",
+				"channel": "11D",
+				"location": "Mulhouse, France",
+				"start": "17.01.2019",
+				"operator": "société Milhüser Broadcasting Club",
+				"operatorUrl": "http://Mbroadcastingclub.fr/"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [7.314764, 47.750348]
+			}
+                },
+		{
+			"type": "Feature",
+			"properties": {
 				"name": "DIG3GE (1st pilot site with opendigitalradio)",
 				"channel": "10D",
 				"location": "Le Fierney (F), Geneva, Switzerland",
