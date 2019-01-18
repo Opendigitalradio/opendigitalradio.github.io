@@ -69,8 +69,8 @@ var dataRegular = {
 				"channel": "11D",
 				"location": "Mulhouse, France",
 				"start": "17.01.2019",
-				"operator": "société Milhüser Broadcasting Club",
-				"operatorUrl": "http://Mbroadcastingclub.fr/"
+				"operator": "Société Milhüser Broadcasting Club",
+				"operatorUrl": "http://Mbroadcastingclub.fr"
 			},
 			"geometry": {
 				"type": "Point",
