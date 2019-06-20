@@ -6,7 +6,7 @@ var dataRegular = {
 			"properties": {
 				"name": "DAB+ Bretzenheim",
 				"channel": "12A",
-				"location": "Bretzenheim, Kirchturm Maria Geburt",
+				"location": "Bad Kreuznach, Kuhberg",
 				"start": "05.08.2017",
 				"operator": "domradio Studio Nahe",
 				"operatorUrl": "https://www.studio-nahe.de/",
