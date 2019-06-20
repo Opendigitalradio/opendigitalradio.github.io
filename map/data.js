@@ -9,7 +9,7 @@ var dataRegular = {
 				"location": "Bretzenheim, Kirchturm Maria Geburt",
 				"start": "05.08.2017",
 				"operator": "domradio Studio Nahe",
-				"operatorUrl": "http://www.studio-nahe.de/",
+				"operatorUrl": "https://www.studio-nahe.de/",
 				"moreInfoUrl": "https://www.facebook.com/digitalradiobretzenheim/"
 			},
 			"geometry": {
@@ -70,8 +70,8 @@ var dataRegular = {
 				"location": "Marseille, Aix-en-Provence, France",
 				"start": "20.06.2014",
 				"operator": "SDN",
-				"operatorUrl": "http://diffusionnumerique.org",
-				"moreInfoUrl": "http://adn13.fr"
+				"operatorUrl": "https://diffusionnumerique.org",
+				"moreInfoUrl": "https://adn13.fr"
 			},
 			"geometry": {
 				"type": "Point",
@@ -101,8 +101,8 @@ var dataRegular = {
 				"location": "Le Fierney (F), Geneva, Switzerland",
 				"start": "01.05.2014",
 				"operator": "Digris",
-				"operatorUrl": "http://www.digris.ch/",
-				"moreInfoUrl": "http://wiki.opendigitalradio.org/Start_of_transmission_of_new_DAB%2B_stations_on_Geneva"
+				"operatorUrl": "https://www.digris.ch/",
+				"moreInfoUrl": "https://wiki.opendigitalradio.org/Start_of_transmission_of_new_DAB%2B_stations_on_Geneva"
 			},
 			"geometry": {
 				"type": "Point",
@@ -117,7 +117,7 @@ var dataRegular = {
 				"location": "Aarau, Aargau, Switzerland",
 				"start": "05.2016",
 				"operator": "Digris",
-				"operatorUrl": "http://www.digris.ch/"
+				"operatorUrl": "https://www.digris.ch/"
 			},
 			"geometry": {
 				"type": "Point",
@@ -132,7 +132,7 @@ var dataRegular = {
 				"location": "Basel, Switzerland",
 				"start": "07.2016",
 				"operator": "Digris",
-				"operatorUrl": "http://www.digris.ch/"
+				"operatorUrl": "https://www.digris.ch/"
 			},
 			"geometry": {
 				"type": "Point",
@@ -147,7 +147,7 @@ var dataRegular = {
 				"location": "Gigeliwald & Stanserhorn, Switzerland",
 				"start": "07.2016",
 				"operator": "Digris",
-				"operatorUrl": "http://www.digris.ch/"
+				"operatorUrl": "https://www.digris.ch/"
 			},
 			"geometry": {
 				"type": "Point",
@@ -162,7 +162,7 @@ var dataRegular = {
 				"location": "Brüelberg, Switzerland",
 				"start": "06.2016",
 				"operator": "Digris",
-				"operatorUrl": "http://www.digris.ch/"
+				"operatorUrl": "https://www.digris.ch/"
 			},
 			"geometry": {
 				"type": "Point",
@@ -177,7 +177,7 @@ var dataRegular = {
 				"location": "Felsenegg, Switzerland",
 				"start": "08.2014",
 				"operator": "Digris",
-				"operatorUrl": "http://www.digris.ch/"
+				"operatorUrl": "https://www.digris.ch/"
 			},
 			"geometry": {
 				"type": "Point",
@@ -192,7 +192,7 @@ var dataRegular = {
 				"location": "Reyvroz (F)",
 				"start": "09.2015",
 				"operator": "Digris",
-				"operatorUrl": "http://www.digris.ch/"
+				"operatorUrl": "https://www.digris.ch/"
 			},
 			"geometry": {
 				"type": "Point",
@@ -207,7 +207,7 @@ var dataRegular = {
 				"location": "Martigny Chemin Dessous, Montana Grand Signal",
 				"start": "11.2016",
 				"operator": "Digris",
-				"operatorUrl": "http://www.digris.ch/"
+				"operatorUrl": "https://www.digris.ch/"
 			},
 			"geometry": {
 				"type": "Point",
@@ -222,7 +222,7 @@ var dataRegular = {
 				"location": "San Bartolomeo, Monte Marzio",
 				"start": "06.2017",
 				"operator": "Digris",
-				"operatorUrl": "http://www.digris.ch/"
+				"operatorUrl": "https://www.digris.ch/"
 			},
 			"geometry": {
 				"type": "Point",
@@ -237,7 +237,7 @@ var dataRegular = {
 				"location": "Jaeissberg - Solorthurm",
 				"start": "08.2017",
 				"operator": "Digris",
-				"operatorUrl": "http://www.digris.ch/"
+				"operatorUrl": "https://www.digris.ch/"
 			},
 			"geometry": {
 				"type": "Point",
@@ -252,7 +252,7 @@ var dataRegular = {
 				"location": "Yverdon - Vallamand",
 				"start": "12.2017",
 				"operator": "Digris",
-				"operatorUrl": "http://www.digris.ch/"
+				"operatorUrl": "https://www.digris.ch/"
 			},
 			"geometry": {
 				"type": "Point",
@@ -267,7 +267,7 @@ var dataRegular = {
 				"location": "Interlaken - Brienz - Thun",
 				"start": "08.2017",
 				"operator": "Digris",
-				"operatorUrl": "http://www.digris.ch/"
+				"operatorUrl": "https://www.digris.ch/"
 			},
 			"geometry": {
 				"type": "Point",
@@ -282,7 +282,7 @@ var dataRegular = {
 				"location": "Forsthaus",
 				"start": "08.2017",
 				"operator": "Digris",
-				"operatorUrl": "http://www.digris.ch/"
+				"operatorUrl": "https://www.digris.ch/"
 			},
 			"geometry": {
 				"type": "Point",
@@ -327,7 +327,7 @@ var dataRegular = {
 				"location": "Chur - Sarganserland",
 				"start": "16.08.2017",
 				"operator": "Digris",
-				"operatorUrl": "http://www.digris.ch/"
+				"operatorUrl": "https://www.digris.ch/"
 			},
 			"geometry": {
 				"type": "Point",
@@ -342,7 +342,7 @@ var dataRegular = {
 				"location": "Leipzig, Messegrund",
 				"start": "31.01.2018",
 				"operator": " DIVICON MEDIA HOLDING GmbH",
-				"operatorUrl": "http://www.divicon-media.com/",
+				"operatorUrl": "https://www.divicon-media.com/",
 				"moreInfoUrl": "https://www.slm-online.de/2018_pressemitteilungen-a-3525.html"
 			},
 			"geometry": {
@@ -358,7 +358,7 @@ var dataRegular = {
 				"location": "Freiberg, Wasserberg",
 				"start": "31.01.2018",
 				"operator": " DIVICON MEDIA HOLDING GmbH",
-				"operatorUrl": "http://www.divicon-media.com/",
+				"operatorUrl": "https://www.divicon-media.com/",
 				"moreInfoUrl": "https://www.slm-online.de/2018_pressemitteilungen-a-3525.html"
 			},
 			"geometry": {
@@ -380,7 +380,7 @@ var dataTest = {
 				"location": "Castle Vale, Birmingham, England",
 				"start": "20.08.2015",
 				"operator": "Switch Radio",
-				"operatorUrl": "http://www.switchradio.co.uk/",
+				"operatorUrl": "https://www.switchradio.co.uk/",
 				"moreInfoUrl": "https://www.ofcom.org.uk/manage-your-licence/radio-broadcast-licensing/look-up-radio-station-details/small-scale-dab-trial-coverage-maps"
 			},
 			"geometry": {
@@ -396,8 +396,8 @@ var dataTest = {
 				"location": "Ashton, Bristol, England",
 				"start": "26.08.2015",
 				"operator": "Celador",
-				"operatorUrl": "http://bristoldigitalradio.org/",
-				"moreInfoUrl": "http://www.bristoldigitalradio.org/about-us/"
+				"operatorUrl": "https://bristoldigitalradio.org/",
+				"moreInfoUrl": "https://www.bristoldigitalradio.org/about-us/"
 			},
 			"geometry": {
 				"type": "Point",
@@ -412,7 +412,7 @@ var dataTest = {
 				"location": "Sussex Heights, Brighton, PRBH",
 				"start": "23.07.2015",
 				"operator": "Brighton & Hove Radio Ltd.",
-				"operatorUrl": "http://juicebrighton.com/",
+				"operatorUrl": "https://juicebrighton.com/",
 				"moreInfoUrl": "https://www.ofcom.org.uk/manage-your-licence/radio-broadcast-licensing/look-up-radio-station-details/small-scale-dab-trial-coverage-maps"
 			},
 			"geometry": {
@@ -428,7 +428,7 @@ var dataTest = {
 				"location": "Gog Magog, Camb, England",
 				"start": "03.09.2015",
 				"operator": "Star Radio",
-				"operatorUrl": "http://starradioonline.com/",
+				"operatorUrl": "https://starradioonline.com/",
 				"moreInfoUrl": "https://www.ofcom.org.uk/manage-your-licence/radio-broadcast-licensing/look-up-radio-station-details/small-scale-dab-trial-coverage-maps"
 			},
 			"geometry": {
@@ -444,7 +444,7 @@ var dataTest = {
 				"location": "Church, Cambridge, England",
 				"start": "03.09.2015",
 				"operator": "Star Radio",
-				"operatorUrl": "http://starradioonline.com/",
+				"operatorUrl": "https://starradioonline.com/",
 				"moreInfoUrl": "https://www.ofcom.org.uk/manage-your-licence/radio-broadcast-licensing/look-up-radio-station-details/small-scale-dab-trial-coverage-maps"
 			},
 			"geometry": {
@@ -460,7 +460,7 @@ var dataTest = {
 				"location": "Cathkin Braes, Glasgow, Scotland",
 				"start": "26.11.2015",
 				"operator": "Brave Broadcasting Ltd.",
-				"operatorUrl": "http://www.glasgowdab.uk/",
+				"operatorUrl": "https://www.glasgowdab.uk/",
 				"moreInfoUrl": "https://www.ofcom.org.uk/manage-your-licence/radio-broadcast-licensing/look-up-radio-station-details/small-scale-dab-trial-coverage-maps"
 			},
 			"geometry": {
@@ -476,7 +476,7 @@ var dataTest = {
 				"location": "Edmonstone Court, Glasgow, Scotland",
 				"start": "10.05.2016",
 				"operator": "Brave Broadcasting Ltd.",
-				"operatorUrl": "http://www.glasgowdab.uk/",
+				"operatorUrl": "https://www.glasgowdab.uk/",
 				"moreInfoUrl": "https://www.ofcom.org.uk/manage-your-licence/radio-broadcast-licensing/look-up-radio-station-details/small-scale-dab-trial-coverage-maps"
 			},
 			"geometry": {
@@ -492,7 +492,7 @@ var dataTest = {
 				"location": "Southwood Park, London, England",
 				"start": "09.09.2015",
 				"operator": "U.DAB",
-				"operatorUrl": "http://www.udab.co.uk/",
+				"operatorUrl": "https://www.udab.co.uk/",
 				"moreInfoUrl": "https://www.ofcom.org.uk/manage-your-licence/radio-broadcast-licensing/look-up-radio-station-details/small-scale-dab-trial-coverage-maps"
 			},
 			"geometry": {
@@ -508,7 +508,7 @@ var dataTest = {
 				"location": "Honor Oak Park, London, England",
 				"start": "07.10.2015",
 				"operator": "U.DAB",
-				"operatorUrl": "http://www.udab.co.uk/",
+				"operatorUrl": "https://www.udab.co.uk/",
 				"moreInfoUrl": "https://www.ofcom.org.uk/manage-your-licence/radio-broadcast-licensing/look-up-radio-station-details/small-scale-dab-trial-coverage-maps"
 			},
 			"geometry": {
@@ -540,7 +540,7 @@ var dataTest = {
 				"location": "Markham Tower, Norwich, England",
 				"start": "04.07.2015",
 				"operator": "FDN",
-				"operatorUrl": "http://www.futuredigital.info/",
+				"operatorUrl": "https://www.futuredigital.info/",
 				"moreInfoUrl": "https://www.ofcom.org.uk/manage-your-licence/radio-broadcast-licensing/look-up-radio-station-details/small-scale-dab-trial-coverage-maps"
 			},
 			"geometry": {
@@ -556,7 +556,7 @@ var dataTest = {
 				"location": "Fort Widley, Portsmouth, England",
 				"start": "06.08.2015",
 				"operator": "Solent Wireless",
-				"operatorUrl": "http://www.solentwireless.com/",
+				"operatorUrl": "https://www.solentwireless.com/",
 				"moreInfoUrl": "https://www.ofcom.org.uk/manage-your-licence/radio-broadcast-licensing/look-up-radio-station-details/small-scale-dab-trial-coverage-maps"
 			},
 			"geometry": {
@@ -572,7 +572,7 @@ var dataTest = {
 				"location": "Winston Churchill School, Woking, England",
 				"start": "26.09.2015",
 				"operator": "BFBS",
-				"operatorUrl": "http://bfbs.com/",
+				"operatorUrl": "https://bfbs.com/",
 				"moreInfoUrl": "https://www.ofcom.org.uk/manage-your-licence/radio-broadcast-licensing/look-up-radio-station-details/small-scale-dab-trial-coverage-maps"
 			},
 			"geometry": {
@@ -588,7 +588,7 @@ var dataTest = {
 				"location": "Health Centre, Aldershot, England",
 				"start": "26.08.2016",
 				"operator": "BFBS",
-				"operatorUrl": "http://bfbs.com/",
+				"operatorUrl": "https://bfbs.com/",
 				"moreInfoUrl": "https://www.ofcom.org.uk/manage-your-licence/radio-broadcast-licensing/look-up-radio-station-details/small-scale-dab-trial-coverage-maps"
 			},
 			"geometry": {
