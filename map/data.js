@@ -30,7 +30,7 @@ var dataRegular = {
 			"geometry": {
 				"type": "Point",
 				"coordinates": [50.351626, 3.548771]
-		}
+		},
 		{
 			"type": "Feature",
 			"properties": {
@@ -44,7 +44,7 @@ var dataRegular = {
 			"geometry": {
 				"type": "Point",
 				"coordinates": [49.459670, 1.096682]
-		}	
+		},	
 		{
 			"type": "Feature",
 			"properties": {
@@ -58,7 +58,7 @@ var dataRegular = {
 			"geometry": {
 				"type": "Point",
 				"coordinates": [49.459670, 1.096482]
-		}	
+		},	
 		{
 			"type": "Feature",
 			"properties": {
@@ -72,7 +72,7 @@ var dataRegular = {
 			"geometry": {
 				"type": "Point",
 				"coordinates": [49.526913, 0.095478]
-		}	
+		},	
 		{
 			"type": "Feature",
 			"properties": {
