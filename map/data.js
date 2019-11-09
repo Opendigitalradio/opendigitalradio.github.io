@@ -674,22 +674,6 @@ var dataTest = {
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "IRT-Radio-Test",
-				"channel": "7B",
-				"location": "Munich, BR-Funkhaus",
-				"start": "16.02.2017",
-				"operator": "Institut für Rundfunktechnik GmbH",
-				"operatorUrl": "https://www.irt.de/en/",
-				"moreInfoUrl": "https://www.irt.de/no_cache/aktuell/news/view/datum/2017/02/17/mehr-digitalradio-mit-small-scale-dab/"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [11.55368, 48.14297]
-			}
-		},
-		{
-			"type": "Feature",
-			"properties": {
 				"name": "Bangkok",
 				"channel": "6B",
 				"location": "Bangkok",
@@ -709,5 +693,21 @@ var dataTest = {
 var dataInactive = {
 	"type": "FeatureCollection",
 	"features": [
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "IRT-Radio-Test",
+				"channel": "7B",
+				"location": "Munich, BR-Funkhaus",
+				"start": "16.02.2017",
+				"operator": "Institut für Rundfunktechnik GmbH",
+				"operatorUrl": "https://www.irt.de/en/",
+				"moreInfoUrl": "https://www.irt.de/no_cache/aktuell/news/view/datum/2017/02/17/mehr-digitalradio-mit-small-scale-dab/"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [11.55368, 48.14297]
+			}
+		},
 	]
 };
