@@ -1,0 +1,219 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<title>ODR DAB/DAB+ CU calculator</title>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+	<h1>ODR DAB/DAB+ CU calculator</h1>
+	This page provides a simple calculator to retrieve the required amount of Capacity Units (CUs) for a DAB/DAB+ audio service with certain parameters and checks whether receivers shall support decoding of such a service according to the DAB Minimum Requirements (ETSI TS 103 461, clauses 5.7 and 6.7). It also calculates the maximum number of such services that fit into an ensemble (864 CUs) and the remaining capacity.<br>
+	<br>
+	<br>
+	<form>
+		<table>
+			<tr>
+				<td>Protection level:</td>
+				<td>
+					<select id="pl">
+						<option value="eep_1a">EEP 1-A</option>
+						<option value="eep_2a">EEP 2-A</option>
+						<option value="eep_3a" selected="selected">EEP 3-A</option>
+						<option value="eep_4a">EEP 4-A</option>
+						<option value="eep_1b">EEP 1-B</option>
+						<option value="eep_2b">EEP 2-B</option>
+						<option value="eep_3b">EEP 3-B</option>
+						<option value="eep_4b">EEP 4-B</option>
+						<option value="uep_1">UEP 1</option>
+						<option value="uep_2">UEP 2</option>
+						<option value="uep_3">UEP 3</option>
+						<option value="uep_4">UEP 4</option>
+						<option value="uep_5">UEP 5</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Bitrate:</td>
+				<td>
+					<input type="range" id="br" min="8" max="384" step="8" value="72"/>
+					&nbsp;
+					<span id="br_value">&nbsp;</span>
+				</td>
+			</tr>
+		</table>
+		
+		<br/>
+		<b><font color="Red"><span id="msg">&nbsp;</span></font></b><br/>
+		<br/>
+		
+		<table>
+			<tr>
+				<td>Subchannel size:&nbsp;</td>
+				<td align="right"><b><span id="result_cus"&nbsp;</span></b></td>
+			</tr>
+			<tr>
+				<td>... suitable for DAB service (ETSI TS 103 461):&nbsp;</td>
+				<td align="right"><b><span id="result_dab">&nbsp;</span></b></td>
+			</tr>
+			<tr>
+				<td>... suitable for DAB+ service (ETSI TS 103 461):&nbsp;</td>
+				<td align="right"><b><span id="result_dab_plus">&nbsp;</span></b></td>
+			</tr>
+			<tr>
+				<td colspan="2">&nbsp;</td>
+			</tr>
+			<tr>
+				<td>Maximum number of services in an ensemble:&nbsp;</td>
+				<td align="right"><b><span id="result_services">&nbsp;</span></b></td>
+			</tr>
+			<tr>
+				<td>... and remaining ensemble capacity:&nbsp;</td>
+				<td align="right"><b><span id="result_remainder">&nbsp;</span></b></td>
+			</tr>
+		</table>
+	</form>
+	
+	<script type="text/javascript">
+		function update_result() {
+			var pl = document.getElementById('pl').value;
+			var br = Number(document.getElementById('br').value);
+			var result = -1;
+			
+			if (pl.match(/^eep_/)) {
+				// EEP
+				var pl_props = pl.match(/_(\d)([ab])$/);
+			
+				if (pl_props[2] == "a") {
+					const factors = Array(12, 8, 6, 4);
+					
+					var n = br / 8;
+					result = n * factors[pl_props[1] - 1];
+				} else {
+					if (br % 32 == 0) {
+						const factors = Array(27, 21, 18, 15);
+						
+						var n = br / 32;
+						result = n * factors[pl_props[1] - 1];
+					}
+				}
+			} else {
+				// UEP
+				var pl_prop = pl.match(/_(\d)$/);
+				
+				const map_1 = new Map([
+					[32, 35],
+					[48, 52],
+					[64, 70],
+					[80, 84],
+					[96, 104],
+					[128, 140],
+					[160, 168],
+					[192, 208],
+					[224, 232],
+					[256, 280],
+					[384, 416]
+				]);
+				const map_2 = new Map([
+					[32, 29],
+					[48, 42],
+					[56, 52],
+					[64, 58],
+					[80, 70],
+					[96, 84],
+					[112, 104],
+					[128, 116],
+					[160, 140],
+					[192, 168],
+					[224, 208],
+					[256, 232],
+					[320, 280]
+				]);
+				const map_3 = new Map([
+					[32, 24],
+					[48, 35],
+					[56, 42],
+					[64, 48],
+					[80, 58],
+					[96, 70],
+					[112, 84],
+					[128, 96],
+					[160, 116],
+					[192, 140],
+					[224, 168],
+					[256, 192],
+					[384, 280]
+				]);
+				const map_4 = new Map([
+					[32, 21],
+					[48, 29],
+					[56, 35],
+					[64, 42],
+					[80, 52],
+					[96, 58],
+					[112, 70],
+					[128, 84],
+					[160, 104],
+					[192, 116],
+					[224, 140],
+					[256, 168],
+					[320, 208]
+				]);
+				const map_5 = new Map([
+					[32, 16],
+					[48, 24],
+					[56, 29],
+					[64, 32],
+					[80, 40],
+					[96, 48],
+					[112, 58],
+					[128, 64],
+					[160, 80],
+					[192, 96],
+					[224, 116],
+					[256, 128],
+					[320, 160],
+					[384, 192]
+				]);
+				const factors = Array(map_1, map_2, map_3, map_4, map_5);
+				
+				var pl_map = factors[pl_prop[1] - 1];
+				if (pl_map.has(br)) {
+					result = pl_map.get(br);
+				}
+			}
+			
+			// show result
+			if (result != -1) {
+				var dab = result > 208 ? "no" : "<font color='Green'>yes</font>";
+				var dab_plus = result > 144 ? "no" : "<font color='Green'>yes</font>";
+				
+				document.getElementById('msg').innerHTML = "";
+				document.getElementById('result_cus').innerHTML = result + " CUs";
+				document.getElementById('result_dab').innerHTML = dab;
+				document.getElementById('result_dab_plus').innerHTML = dab_plus;
+				document.getElementById('result_services').innerHTML = Math.floor(864 / result);
+				document.getElementById('result_remainder').innerHTML = (864 % result) + " CUs";
+			} else {
+				document.getElementById('msg').innerHTML = "Invalid bitrate for selected protection level!";
+				document.getElementById('result_cus').innerHTML = "---";
+				document.getElementById('result_dab').innerHTML = "---";
+				document.getElementById('result_dab_plus').innerHTML = "---";
+				document.getElementById('result_services').innerHTML = "---";
+				document.getElementById('result_remainder').innerHTML = "---";
+			}
+		}
+		
+		function update_bitrate(value) {
+			document.getElementById('br_value').innerHTML = value + " kbps";
+			update_result();
+		}
+		function update_bitrate_by_event(ev) {
+			update_bitrate(ev.target.value);
+		}
+		
+		document.getElementById('pl').addEventListener('input', update_result);
+		document.getElementById('br').addEventListener('input', update_bitrate_by_event);
+		
+		update_bitrate(document.getElementById('br').value)
+	</script>
+</body>
+</html>
