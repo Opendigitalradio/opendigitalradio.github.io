@@ -426,9 +426,25 @@ var dataRegular = {
 				"coordinates": [13.317117, 50.903778]
 			}
 		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "DAB+ 4 Brainport",
+				"channel": "7B",
+				"location": "Eindhoven region",
+				"start": "25.05.2020",
+				"operator": "EUregio Digitaal Foundation for DABall76 project",
+				"operatorUrl": "http://www.euregiodigitaal.nl",
+				"moreInfoUrl": "http://www.euregiodigitaal.nl/site2020/over-ons/"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [5.481316, 51.435172]
+			}
+		},
 	]
 };
-		
+
 var dataTest = {
 	"type": "FeatureCollection",
 	"features": [
