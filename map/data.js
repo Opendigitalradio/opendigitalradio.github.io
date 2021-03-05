@@ -471,7 +471,7 @@ var dataTest = {
 				"channel": "9A",
 				"location": "Ashton, Bristol, England",
 				"start": "26.08.2015",
-				"operator": "Celador",
+				"operator": "Bauer Radio",
 				"operatorUrl": "https://bristoldigitalradio.org/",
 				"moreInfoUrl": "https://www.bristoldigitalradio.org/about-us/"
 			},
