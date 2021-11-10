@@ -703,6 +703,22 @@ var dataTest = {
 				"coordinates": [100.504, 13.733]
 			}
 		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Iscle359FM DAB+",
+				"channel": "11A",
+				"location": "Sant Iscle de Vallalta (Maresme - Catalunya)",
+				"start": "01.07.2021",
+				"operator": "Iscle359FM Free Local Station",
+				"operatorUrl": "https://www.iscle359fm.cat",
+				"moreInfoUrl": "https://www.iscle359fm.cat/?p=826"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [2.56914, 41.62433]
+			}
+		},
 	]
 };
 
