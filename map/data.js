@@ -46,7 +46,7 @@ var dataRegular = {
 				"type": "Point",
 				"coordinates": [1.096682, 49.459670]
 			}
-		},	
+		},
 		{
 			"type": "Feature",
 			"properties": {
@@ -61,7 +61,7 @@ var dataRegular = {
 				"type": "Point",
 				"coordinates": [1.096482, 49.459670]
 			}
-		},	
+		},
 		{
 			"type": "Feature",
 			"properties": {
@@ -76,7 +76,7 @@ var dataRegular = {
 				"type": "Point",
 				"coordinates": [0.095478, 49.526913]
 			}
-		},	
+		},
 		{
 			"type": "Feature",
 			"properties": {
@@ -685,8 +685,8 @@ var dataTest = {
 			"geometry": {
 				"type": "Point",
 				"coordinates": [17.061985, 51.107522]
-			}	
-		},	
+			}
+		},
 		{
 			"type": "Feature",
 			"properties": {
