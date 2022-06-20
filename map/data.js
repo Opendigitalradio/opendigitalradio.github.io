@@ -4,13 +4,29 @@ var dataRegular = {
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "DAB+ Bretzenheim",
+				"name": "DAB+ Rostock",
+				"channel": "10A",
+				"location": "Rostock, Kraftwerk",
+				"start": "16.06.2022",
+				"operator": "LOHRO / Milling Broadcast Services GmbH",
+				"operatorUrl": "https://www.lohro.de/",
+				"moreInfoUrl": "https://www.facebook.com/LOHRO"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [12.1310565, 54.1410474]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "DAB+ Bad Kreuznach",
 				"channel": "12A",
 				"location": "Bad Kreuznach, Kuhberg",
 				"start": "05.08.2017",
-				"operator": "domradio Studio Nahe",
-				"operatorUrl": "https://www.studio-nahe.de/",
-				"moreInfoUrl": "https://www.facebook.com/digitalradiobretzenheim/"
+				"operator": "Milling Broadcast Services GmbH",
+				"operatorUrl": "https://www.millingbroadcast.services/",
+				"moreInfoUrl": "https://www.facebook.com/millingbroadcastservices"
 			},
 			"geometry": {
 				"type": "Point",
