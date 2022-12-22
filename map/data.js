@@ -483,19 +483,51 @@ var dataTest = {
 		{
 			"type": "Feature",
 			"properties": {
-				"name": "Trial Bristol",
-				"channel": "9A",
-				"location": "Ashton, Bristol, England",
-				"start": "26.08.2015",
-				"operator": "Bauer Radio",
+				"name": "Bristol -East",
+				"channel": "9B",
+				"location": "Bristol, England",
+				"start": "11.11.2022",
+				"operator": "Bristol Digital Radio CIC",
 				"operatorUrl": "https://bristoldigitalradio.org/",
 				"moreInfoUrl": "https://www.bristoldigitalradio.org/about-us/"
 			},
 			"geometry": {
 				"type": "Point",
-				"coordinates": [-2.628612, 51.439694]
+				"coordinates": [-2.6082374032337716, 51.45649550879019]
 			}
 		},
+			{
+			"type": "Feature",
+			"properties": {
+				"name": "Bristol -West",
+				"channel": "12",
+				"location": "Bristol, England",
+				"start": "14.11.2022",
+				"operator": "Severnside Digital Radio CIC",
+				"operatorUrl": "https://severnsidedigitalradio.org/",
+				"moreInfoUrl": "https://www.severnsidedigitalradio.org/about-us/"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-2.550240298522828, 51.50139254036602]
+			}
+		},
+			{
+			"type": "Feature",
+			"properties": {
+				"name": "South Birmingham",
+				"channel": "9C",
+				"location": "Birmingham, England",
+				"start": "14.12.2022",
+				"operator": "South Birmingham Digital Radio Limited",
+				"operatorUrl": "https://southbirminghamdigitalradio.co.uk/",
+				"moreInfoUrl": "https://www.southbirminghamdigitalradio.co.uk/about-us/"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.9195690012637545, 52.47328827951821]
+			}
+		},		
 		{
 			"type": "Feature",
 			"properties": {
