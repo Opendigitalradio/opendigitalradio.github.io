@@ -458,28 +458,6 @@ var dataRegular = {
 				"coordinates": [5.481316, 51.435172]
 			}
 		},
-	]
-};
-
-var dataTest = {
-	"type": "FeatureCollection",
-	"features": [
-		{
-			"type": "Feature",
-			"properties": {
-				"name": "Trial Birmingham",
-				"channel": "9A",
-				"location": "Castle Vale, Birmingham, England",
-				"start": "20.08.2015",
-				"operator": "Switch Radio",
-				"operatorUrl": "https://www.switchradio.co.uk/",
-				"moreInfoUrl": "https://www.ofcom.org.uk/manage-your-licence/radio-broadcast-licensing/look-up-radio-station-details/small-scale-dab-trial-coverage-maps"
-			},
-			"geometry": {
-				"type": "Point",
-				"coordinates": [-1.795126, 52.519995]
-			}
-		},
 		{
 			"type": "Feature",
 			"properties": {
@@ -526,6 +504,28 @@ var dataTest = {
 			"geometry": {
 				"type": "Point",
 				"coordinates": [-1.9195690012637545, 52.47328827951821]
+			}
+		},
+	]
+};
+
+var dataTest = {
+	"type": "FeatureCollection",
+	"features": [
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Trial Birmingham",
+				"channel": "9A",
+				"location": "Castle Vale, Birmingham, England",
+				"start": "20.08.2015",
+				"operator": "Switch Radio",
+				"operatorUrl": "https://www.switchradio.co.uk/",
+				"moreInfoUrl": "https://www.ofcom.org.uk/manage-your-licence/radio-broadcast-licensing/look-up-radio-station-details/small-scale-dab-trial-coverage-maps"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-1.795126, 52.519995]
 			}
 		},		
 		{
