@@ -168,7 +168,7 @@ var dataRegular = {
 				"type": "Point",
 				"coordinates": [7.314764, 47.750348]
 			}
-                },
+		},
 		{
 			"type": "Feature",
 			"properties": {
@@ -474,7 +474,7 @@ var dataRegular = {
 				"coordinates": [-2.6082374032337716, 51.45649550879019]
 			}
 		},
-			{
+		{
 			"type": "Feature",
 			"properties": {
 				"name": "Bristol -West",
@@ -490,7 +490,7 @@ var dataRegular = {
 				"coordinates": [-2.550240298522828, 51.50139254036602]
 			}
 		},
-			{
+		{
 			"type": "Feature",
 			"properties": {
 				"name": "South Birmingham",
@@ -506,6 +506,236 @@ var dataRegular = {
 				"coordinates": [-1.9195690012637545, 52.47328827951821]
 			}
 		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Ulstermux",
+				"channel": "9C",
+				"location": "Newry",
+				"start": "14.10.2022",
+				"operator": "Ulstermux Ltd",
+				"operatorUrl": "https://ulstermux.co.uk/",
+				"moreInfoUrl": "https://ulstermux.co.uk/coverage/",
+				"id": "C1F83704",
+				"power": "0.100",
+				"site": "Tullyhappy",
+				"county": "NI-ARM"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-6.408889,
+					54.227778
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Ulstermux",
+				"channel": "9C",
+				"location": "Newry",
+				"start": "14.10.2022",
+				"operator": "Ulstermux Ltd",
+				"operatorUrl": "https://ulstermux.co.uk/",
+				"moreInfoUrl": "https://ulstermux.co.uk/coverage/",
+				"id": "C1F83707",
+				"power": "0.070",
+				"site": "Banbridge/Thornhill",
+				"county": "NI-DWN"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-6.2775,
+					54.345278
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Ulstermux",
+				"channel": "9C",
+				"location": "Newry",
+				"start": "14.10.2022",
+				"operator": "Ulstermux Ltd",
+				"operatorUrl": "https://ulstermux.co.uk/",
+				"moreInfoUrl": "https://ulstermux.co.uk/coverage/",
+				"id": "C1F83711",
+				"power": "0.050",
+				"site": "Corrinshego",
+				"county": "NI-ARM"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-6.378889,
+					54.171944
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Ulstermux",
+				"channel": "9C",
+				"location": "Newry",
+				"start": "14.10.2022",
+				"operator": "Ulstermux Ltd",
+				"operatorUrl": "https://ulstermux.co.uk/",
+				"moreInfoUrl": "https://ulstermux.co.uk/coverage/",
+				"id": "C1F83706",
+				"power": "0.040",
+				"site": "Forkhill",
+				"county": "NI-ARM"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-6.448889,
+					54.0825
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Ulstermux",
+				"channel": "9C",
+				"location": "Newry",
+				"start": "14.10.2022",
+				"operator": "Ulstermux Ltd",
+				"operatorUrl": "https://ulstermux.co.uk/",
+				"moreInfoUrl": "https://ulstermux.co.uk/coverage/",
+				"id": "C1F83717",
+				"power": "0.025",
+				"site": "Warrenpoint/Havelock Place",
+				"county": "NI-DWN"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-6.253611,
+					54.098611
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Ulstermux",
+				"channel": "9C",
+				"location": "Newry",
+				"start": "14.10.2022",
+				"operator": "Ulstermux Ltd",
+				"operatorUrl": "https://ulstermux.co.uk/",
+				"moreInfoUrl": "https://ulstermux.co.uk/coverage/",
+				"id": "C1F83712",
+				"power": "0.020",
+				"site": "Cloughoge",
+				"county": "NI-ARM"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-6.362222,
+					54.145
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Ulstermux",
+				"channel": "9C",
+				"location": "Newry",
+				"start": "14.10.2022",
+				"operator": "Ulstermux Ltd",
+				"operatorUrl": "https://ulstermux.co.uk/",
+				"moreInfoUrl": "https://ulstermux.co.uk/coverage/",
+				"id": "C1F83705",
+				"power": "0.020",
+				"site": "Rathfriland",
+				"county": "NI-DWN"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-6.160556,
+					54.238889
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Ulstermux",
+				"channel": "9C",
+				"location": "Newry",
+				"start": "14.10.2022",
+				"operator": "Ulstermux Ltd",
+				"operatorUrl": "https://ulstermux.co.uk/",
+				"moreInfoUrl": "https://ulstermux.co.uk/coverage/",
+				"id": "C1F83703",
+				"power": "0.010",
+				"site": "Castlewellan",
+				"county": "NI-DWN"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-5.941389,
+					54.258056
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Ulstermux",
+				"channel": "9C",
+				"location": "Newry",
+				"start": "14.10.2022",
+				"operator": "Ulstermux Ltd",
+				"operatorUrl": "https://ulstermux.co.uk/",
+				"moreInfoUrl": "https://ulstermux.co.uk/coverage/",
+				"id": "C1F83709",
+				"power": "0.010",
+				"site": "Crossmaglen",
+				"county": "NI-ARM"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-6.609444,
+					54.0775
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Ulstermux",
+				"channel": "9C",
+				"location": "Newry",
+				"start": "14.10.2022",
+				"operator": "Ulstermux Ltd",
+				"operatorUrl": "https://ulstermux.co.uk/",
+				"moreInfoUrl": "https://ulstermux.co.uk/coverage/",
+				"id": "C1F83708",
+				"power": "0.010",
+				"site": "Kilkeel/Moor Road",
+				"county": "NI-DWN"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-5.9875,
+					54.065
+				]
+			}
+		}
 	]
 };
 
@@ -727,8 +957,8 @@ var dataTest = {
 				"channel": "11A",
 				"location": "Wrocław University of Science and Technology",
 				"start": "12.2017",
-				"operator": "Radio Wrocław SA; Politechnika Wrocławska; Instytut Łączności – PIB",
-				"operatorUrl": "",
+				"operator": "Radio Wrocław SA; Politechnika Wrocławska; Instytut Łączności – PIB",
+				"operatorUrl": ""
 			},
 			"geometry": {
 				"type": "Point",
@@ -766,12 +996,11 @@ var dataTest = {
 				"type": "Point",
 				"coordinates": [2.56914, 41.62433]
 			}
-		},
+		}
 	]
 };
 
 var dataInactive = {
 	"type": "FeatureCollection",
-	"features": [
-	]
+	"features": []
 };
