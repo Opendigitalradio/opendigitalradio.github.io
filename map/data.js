@@ -168,7 +168,7 @@ var dataRegular = {
 				"type": "Point",
 				"coordinates": [7.314764, 47.750348]
 			}
-                },
+		},
 		{
 			"type": "Feature",
 			"properties": {
@@ -474,7 +474,7 @@ var dataRegular = {
 				"coordinates": [-2.6082374032337716, 51.45649550879019]
 			}
 		},
-			{
+		{
 			"type": "Feature",
 			"properties": {
 				"name": "Bristol -West",
@@ -490,7 +490,7 @@ var dataRegular = {
 				"coordinates": [-2.550240298522828, 51.50139254036602]
 			}
 		},
-			{
+		{
 			"type": "Feature",
 			"properties": {
 				"name": "South Birmingham",
@@ -506,6 +506,356 @@ var dataRegular = {
 				"coordinates": [-1.9195690012637545, 52.47328827951821]
 			}
 		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Ulstermux",
+				"channel": "9C",
+				"location": "Newry",
+				"start": "14.10.2022",
+				"operator": "Ulstermux Ltd",
+				"operatorUrl": "https://ulstermux.co.uk/",
+				"moreInfoUrl": "https://ulstermux.co.uk/coverage/",
+				"id": "C1F83704",
+				"power": "0.100",
+				"site": "Tullyhappy",
+				"county": "IRL-ARM"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-6.408889,
+					54.227778
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Ulstermux",
+				"channel": "9C",
+				"location": "Newry",
+				"start": "14.10.2022",
+				"operator": "Ulstermux Ltd",
+				"operatorUrl": "https://ulstermux.co.uk/",
+				"moreInfoUrl": "https://ulstermux.co.uk/coverage/",
+				"id": "C1F83707",
+				"power": "0.070",
+				"site": "Banbridge/Thornhill",
+				"county": "IRL-DWN"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-6.2775,
+					54.345278
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Ulstermux",
+				"channel": "9C",
+				"location": "Newry",
+				"start": "14.10.2022",
+				"operator": "Ulstermux Ltd",
+				"operatorUrl": "https://ulstermux.co.uk/",
+				"moreInfoUrl": "https://ulstermux.co.uk/coverage/",
+				"id": "C1F83711",
+				"power": "0.050",
+				"site": "Corrinshego",
+				"county": "IRL-ARM"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-6.378889,
+					54.171944
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Ulstermux",
+				"channel": "9C",
+				"location": "Newry",
+				"start": "14.10.2022",
+				"operator": "Ulstermux Ltd",
+				"operatorUrl": "https://ulstermux.co.uk/",
+				"moreInfoUrl": "https://ulstermux.co.uk/coverage/",
+				"id": "C1F83706",
+				"power": "0.040",
+				"site": "Forkhill",
+				"county": "IRL-ARM"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-6.448889,
+					54.0825
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Ulstermux",
+				"channel": "9C",
+				"location": "Newry",
+				"start": "14.10.2022",
+				"operator": "Ulstermux Ltd",
+				"operatorUrl": "https://ulstermux.co.uk/",
+				"moreInfoUrl": "https://ulstermux.co.uk/coverage/",
+				"id": "C1F83717",
+				"power": "0.025",
+				"site": "Warrenpoint/Havelock Place",
+				"county": "IRL-DWN"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-6.253611,
+					54.098611
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Ulstermux",
+				"channel": "9C",
+				"location": "Newry",
+				"start": "14.10.2022",
+				"operator": "Ulstermux Ltd",
+				"operatorUrl": "https://ulstermux.co.uk/",
+				"moreInfoUrl": "https://ulstermux.co.uk/coverage/",
+				"id": "C1F83712",
+				"power": "0.020",
+				"site": "Cloughoge",
+				"county": "IRL-ARM"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-6.362222,
+					54.145
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Ulstermux",
+				"channel": "9C",
+				"location": "Newry",
+				"start": "14.10.2022",
+				"operator": "Ulstermux Ltd",
+				"operatorUrl": "https://ulstermux.co.uk/",
+				"moreInfoUrl": "https://ulstermux.co.uk/coverage/",
+				"id": "C1F83705",
+				"power": "0.020",
+				"site": "Rathfriland",
+				"county": "IRL-DWN"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-6.160556,
+					54.238889
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Ulstermux",
+				"channel": "9C",
+				"location": "Newry",
+				"start": "14.10.2022",
+				"operator": "Ulstermux Ltd",
+				"operatorUrl": "https://ulstermux.co.uk/",
+				"moreInfoUrl": "https://ulstermux.co.uk/coverage/",
+				"id": "C1F83703",
+				"power": "0.010",
+				"site": "Castlewellan",
+				"county": "IRL-DWN"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-5.941389,
+					54.258056
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Ulstermux",
+				"channel": "9C",
+				"location": "Newry",
+				"start": "14.10.2022",
+				"operator": "Ulstermux Ltd",
+				"operatorUrl": "https://ulstermux.co.uk/",
+				"moreInfoUrl": "https://ulstermux.co.uk/coverage/",
+				"id": "C1F83709",
+				"power": "0.010",
+				"site": "Crossmaglen",
+				"county": "IRL-ARM"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-6.609444,
+					54.0775
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Ulstermux",
+				"channel": "9C",
+				"location": "Newry",
+				"start": "14.10.2022",
+				"operator": "Ulstermux Ltd",
+				"operatorUrl": "https://ulstermux.co.uk/",
+				"moreInfoUrl": "https://ulstermux.co.uk/coverage/",
+				"id": "C1F83708",
+				"power": "0.010",
+				"site": "Kilkeel/Moor Road",
+				"county": "IRL-DWN"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-5.9875,
+					54.065
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Belfast",
+				"channel": "9A",
+				"location": "Belfast/Grand Central",
+				"start": "12.07.2024",
+				"operator": "Lagan SSDAB",
+				"power": "0.150",
+				"id": "C2062521",
+				"county": "IRL-ANT"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-5.931667,
+					54.595
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Belfast",
+				"channel": "9A",
+				"location": "Lisburn/Mullaghglass Road",
+				"start": "12.07.2024",
+				"operator": "Lagan SSDAB",
+				"power": "0.050",
+				"id": "C2062522",
+				"county": "IRL-ANT"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-6.08,
+					54.549722
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "FoyleDAB",
+				"channel": "11C",
+				"location": "Derry",
+				"start": "",
+				"operator": "FoyleDAB",
+				"power": "0.200",
+				"id": "C1DE",
+				"county": "IRL-LDR"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-7.365278,
+					55.004444
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "FoyleDAB",
+				"channel": "11C",
+				"location": "Strabane/Evish Road",
+				"start": "",
+				"operator": "FoyleDAB",
+				"power": "0.100",
+				"id": "C1DE",
+				"county": "IRL-TYR"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-7.440556,
+					54.820556
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Stockport",
+				"channel": "8A",
+				"location": "Stockport/Ratcliffe Towers",
+				"start": "",
+				"operator": "Stockport Community SSDAB Limited",
+				"power": "0.080",
+				"id": "C1F14322",
+				"county": "EN-GTM"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.155278,
+					53.405
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "Stockport",
+				"channel": "8A",
+				"location": "Hyde/Werneth Low (Golf Clu",
+				"start": "",
+				"operator": "Stockport Community SSDAB Limited",
+				"power": "0.040",
+				"id": "C1F14320",
+				"county": "EN-GTM"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-2.053056,
+					53.433056
+				]
+			}
+		}
 	]
 };
 
@@ -727,8 +1077,8 @@ var dataTest = {
 				"channel": "11A",
 				"location": "Wrocław University of Science and Technology",
 				"start": "12.2017",
-				"operator": "Radio Wrocław SA; Politechnika Wrocławska; Instytut Łączności – PIB",
-				"operatorUrl": "",
+				"operator": "Radio Wrocław SA; Politechnika Wrocławska; Instytut Łączności – PIB",
+				"operatorUrl": ""
 			},
 			"geometry": {
 				"type": "Point",
@@ -766,12 +1116,11 @@ var dataTest = {
 				"type": "Point",
 				"coordinates": [2.56914, 41.62433]
 			}
-		},
+		}
 	]
 };
 
 var dataInactive = {
 	"type": "FeatureCollection",
-	"features": [
-	]
+	"features": []
 };
